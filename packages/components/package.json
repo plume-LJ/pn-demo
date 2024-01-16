@@ -1,0 +1,13 @@
+{
+  "name": "@pn/components",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "plume <jmyumao@126.com> (https://github.com/plume-LJ)",
+  "license": "MIT"
+}

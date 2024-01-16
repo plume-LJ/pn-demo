@@ -1,0 +1,31 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  apps/exam:
+    dependencies:
+      '@pn/components':
+        specifier: workspace:^
+        version: link:../../packages/components
+      '@pn/models':
+        specifier: workspace:^
+        version: link:../../packages/models
+
+  packages/components: {}
+
+  packages/models: {}
+
+  packages/web:
+    dependencies:
+      '@pn/components':
+        specifier: workspace:^
+        version: link:../components
+      '@pn/models':
+        specifier: workspace:^
+        version: link:../models
