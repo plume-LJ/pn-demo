@@ -11,8 +11,16 @@
   },
   "keywords": [],
   "author": "plume <jmyumao@126.com> (https://github.com/plume-LJ)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plume-LJ/pn-demo.git"
+  },
+  "homepage": "https://github.com/plume-LJ/pn-demo#readme",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
