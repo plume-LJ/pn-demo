@@ -1,12 +1,13 @@
 {
   "name": "pn-demo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pnpm -r --filter=./packages/web run start",
-    "start:exam": "pnpm -r --filter=./apps/exam run start"
+    "start:exam": "pnpm -r --filter=./apps/exam run start",
+    "ci:publish": "pnpm publish -r"
   },
   "keywords": [],
   "author": "plume <jmyumao@126.com> (https://github.com/plume-LJ)",
