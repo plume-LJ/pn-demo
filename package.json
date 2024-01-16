@@ -10,5 +10,8 @@
   },
   "keywords": [],
   "author": "plume <jmyumao@126.com> (https://github.com/plume-LJ)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
 }

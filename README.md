@@ -9,4 +9,7 @@ npm adduser
 npm config set registry https://registry.npmjs.org/
 npm config set registry https://registry.npmmirror.com/
 
-add 
+pnpm add -Dw @changesets/cli
+pnpm changeset init
+
+
