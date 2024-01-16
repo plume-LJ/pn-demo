@@ -1,5 +1,14 @@
 # @pn/web
 
+## 0.1.3
+
+### Patch Changes
+
+- version change
+- Updated dependencies
+  - @pn/components@0.1.3
+  - @pn/models@0.1.3
+
 ## 0.1.2
 
 ### Patch Changes
